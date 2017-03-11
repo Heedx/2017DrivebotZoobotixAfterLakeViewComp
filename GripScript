@@ -1,0 +1,2 @@
+env LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH mjpg_streamer -o "output_http.so -w ./www -p 1180" -i "input_raspicam.so -fps 15 -r 640x480"
+(Script for using mjpg streamer with Raspberry pi Camera)
